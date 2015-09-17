@@ -11,8 +11,8 @@ plot_scotland <- function() {
   scotland <- NULL
   rannoch <- NULL
 
-  data(list = "scotland", package = "ranmr", envir = environment())
-  data(list = "rannoch", package = "ranmr", envir = environment())
+  data(list = "scotland", package = "ranmrdata", envir = environment())
+  data(list = "rannoch", package = "ranmrdata", envir = environment())
 
   ggplot2::ggplot(data = scotland,  ggplot2::aes_string(x = "long / 1000", y = "lat / 1000")) +
     ggplot2::geom_polygon(fill = "grey70", color = "grey50", ggplot2::aes_string(group = "id")) +
@@ -31,8 +31,8 @@ plot_rannoch <- function() {
   rannoch <- NULL
   power_station <- NULL
 
-  data(list = "rannoch", package = "ranmr", envir = environment())
-  data(list = "power_station", package = "ranmr", envir = environment())
+  data(list = "rannoch", package = "ranmrdata", envir = environment())
+  data(list = "power_station", package = "ranmrdata", envir = environment())
 
   rannoch %<>% ggplot2::fortify() %>%
     dplyr::rename_(.dots = setNames(list(~long, ~lat), c("Easting", "Northing"))) %>%
