@@ -1,7 +1,7 @@
 Package: ranmrdata
 Type: Package
 Title: Loch Rannoch Ferox Trout Abundance
-Version: 0.0.0.9000
+Version: 0.0.0.9001
 Authors@R: c(
     person("Joe",  "Thorley", email = "joe@poissonconsulting.ca", role = c("aut", "cre")),
     person("Aya",  "Thorne", role = c("aut", "dtc")),
@@ -18,4 +18,6 @@ Imports:
     assertthat,
     magrittr,
     dplyr,
-    ggplot2
+    ggplot2,
+    rgeos,
+    sp
