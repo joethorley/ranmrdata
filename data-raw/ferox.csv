@@ -80,7 +80,7 @@ Date,FishID,Length,Weightlb,Weightoz,Age,TagNumber,TagType,Group,Status,Deformed
 2003-05-25,45,71,10,4,NA,a47925,NA,public,released,no,45,N56 41.600 W4 18.576,
 2003-08-02,28,57.5,4,6,12,a47901,NA,ferox85,released,no,28,N56 41.415 W4 22.885,
 2004-06-16,42,62.5,6,9,20,a47921,NA,ferox85,released,no,42,N56 41.461 W4 19.322,
-2005-07-09,44,69,8,6,13,a47924,NA,ferox85,released,no,44,N56 41.641 W4 18.372,
+2005-07-09,44,69,8,6,NA,a47924,NA,ferox85,released,no,44,N56 41.641 W4 18.372,
 2005-07-10,53,54,4,10,13,830,NA,ferox85,released,spine,53,N56 41.468 W4 13.425,
 2006-07-07,21,76.5,9,10,18,,NA,ferox85,released,no,21,N56 41.607 W4 18.547,tag number missing
 2007-06-17,57,72,9,3,14,839,NA,ferox85,released,no,57,N56 41.404 W4 13.955,
