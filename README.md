@@ -1,8 +1,8 @@
-# Loch Rannoch Ferox Trout Abundance 
+# Loch Rannoch Ferox Trout Mark Recapture Data 
 
 `ranmrdata` is the companion R data package for Thorne et al.'s manuscript
 The Low Abundance and High Catchability of Large Piscivorous Ferox Trout 
-(Salmo trutta) in Loch Rannoch, Scotland..
+(Salmo trutta) in Loch Rannoch, Scotland.
 
 ## Installation
 
