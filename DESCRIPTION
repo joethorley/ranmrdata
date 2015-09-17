@@ -13,11 +13,11 @@ License: CC BY 4.0 + file LICENSE
 URL: https://github.com/poissonconsulting/ranmrdata
 LazyData: true
 Depends:
-    R (>= 3.2.2)
+    R (>= 3.2.2),
+    sp
 Imports:
     assertthat,
     magrittr,
     dplyr,
     ggplot2,
-    rgeos,
-    sp
+    rgeos

@@ -12,6 +12,6 @@
 #'
 #' @docType package
 #' @name ranmrdata
-#' @import assertthat
+#' @import assertthat sp
 #' @importFrom magrittr %<>% %>%
 NULL

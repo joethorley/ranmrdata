@@ -3,5 +3,6 @@
 export(plot_rannoch)
 export(plot_scotland)
 import(assertthat)
+import(sp)
 importFrom(magrittr,"%<>%")
 importFrom(magrittr,"%>%")
