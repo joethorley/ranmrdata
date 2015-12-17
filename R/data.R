@@ -2,7 +2,7 @@
 #'
 #' @format A SpatialPolygons object of Scotland and the Western Isles
 #' based on the European Electoral Borders.
-#' The projection is EPSG:27700.
+#' The projection is EPSG:32630.
 #' @seealso \code{\link{ranmrdata}}
 #' @source \url{https://certificates.theodi.org/datasets/620/certificate}
 "scotland"
@@ -10,14 +10,14 @@
 #' Loch Rannoch Shoreline
 #'
 #' @format A SpatialPolygons object of the shoreline of Loch Rannoch, Scotland.
-#' The projection is EPSG:27700.
+#' The projection is EPSG:32630.
 #' @seealso \code{\link{ranmrdata}}
 "rannoch"
 
 #' Rannoch Power Station
 #'
 #' @format A SpatialPoints object of the location of Rannoch Power Station.
-#' The projection is EPSG:27700.
+#' The projection is EPSG:32630.
 #' @seealso \code{\link{ranmrdata}}
 "power_station"
 

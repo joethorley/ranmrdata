@@ -6,9 +6,9 @@ Authors@R: c(
     person("Joe",  "Thorley", email = "joe@poissonconsulting.ca", role = c("aut", "cre")),
     person("Aya",  "Thorne", role = c("aut", "dtc")),
     person("Al",  "McDonald", role = c("aut", "dtc")))
-Description: The data package for Thorne et al.'s manuscript
-    The Low Abundance and High Catchability of Large Piscivorous Ferox Trout (Salmo trutta)
-    in Loch Rannoch, Scotland.
+Description: The data package for Thorne et al.'s manuscript The Low Abundance
+    and High Catchability of Large Piscivorous Ferox Trout (Salmo trutta) in Loch
+    Rannoch, Scotland.
 License: CC BY 4.0 + file LICENSE
 URL: https://github.com/poissonconsulting/ranmrdata
 LazyData: true
@@ -20,4 +20,6 @@ Imports:
     magrittr,
     dplyr,
     ggplot2,
+    scales,
     rgeos
+RoxygenNote: 5.0.1

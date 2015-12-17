@@ -17,7 +17,8 @@ plot_scotland <- function() {
   ggplot2::ggplot(data = scotland,  ggplot2::aes_string(x = "long / 1000", y = "lat / 1000")) +
     ggplot2::geom_polygon(fill = "grey70", color = "grey50", ggplot2::aes_string(group = "id")) +
     ggplot2::geom_polygon(data = rannoch, fill = "black", color = "black") +
-    ggplot2::coord_equal() + ggplot2::xlab("Easting (km)") + ggplot2::ylab("Northing (km)")
+    ggplot2::coord_equal() + ggplot2::scale_x_continuous("Easting (km)", labels = scales::comma) +
+    ggplot2::scale_y_continuous("Northing (km)", labels = scales::comma)
 }
 
 #' Plot Loch Rannoch
@@ -45,5 +46,6 @@ plot_rannoch <- function() {
   ggplot2::ggplot(data = rannoch,  ggplot2::aes_string(x = "Easting", y = "Northing")) +
     ggplot2::geom_polygon(fill = "grey70", color = "grey50") +
     ggplot2::geom_point(data = power_station, shape = 15, color = "blue") +
-    ggplot2::coord_equal() + ggplot2::xlab("Easting (km)") + ggplot2::ylab("Northing (km)")
+    ggplot2::coord_equal() + ggplot2::scale_x_continuous("Easting (km)", labels = scales::comma) +
+    ggplot2::scale_y_continuous("Northing (km)", labels = scales::comma)
 }
