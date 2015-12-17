@@ -1,26 +1,3 @@
-#' Plot Scotland
-#'
-#' Plots Scotland and Western Isles with Loch Rannoch shaded.
-#'
-#' @return A ggplot2 object.
-#' @export
-#' @examples
-#' plot_scotland()
-plot_scotland <- function() {
-
-  scotland <- NULL
-  rannoch <- NULL
-
-  data(list = "scotland", package = "ranmrdata", envir = environment())
-  data(list = "rannoch", package = "ranmrdata", envir = environment())
-
-  ggplot2::ggplot(data = scotland,  ggplot2::aes_string(x = "long / 1000", y = "lat / 1000")) +
-    ggplot2::geom_polygon(fill = "grey70", color = "grey50", ggplot2::aes_string(group = "id")) +
-    ggplot2::geom_polygon(data = rannoch, fill = "black", color = "black") +
-    ggplot2::coord_equal() + ggplot2::scale_x_continuous("Easting (km)", labels = scales::comma) +
-    ggplot2::scale_y_continuous("Northing (km)", labels = scales::comma)
-}
-
 #' Plot Loch Rannoch
 #'
 #' @return A ggplot2 object.
