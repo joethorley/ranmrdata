@@ -22,7 +22,7 @@ ferox$Longitude <- as.numeric(sub(".*\\s\\w(\\d)\\s.*", "\\1", ferox$Position, p
 ferox$Longitude <- ferox$Longitude + as.numeric(sub(".*\\s\\w\\d\\s([.\\d]+)$", "\\1", ferox$Position, perl = TRUE)) / 60
 
 pos <- SpatialPoints(cbind(ferox$Longitude * -1, ferox$Latitude), proj4string = CRS("+proj=longlat +init=epsg:27700"))
-pos %<>% spTransform(CRS = CRS("+proj=longlat +datum=WGS84"))
+pos %<>% spTransform(CRS = CRS("+proj=longlat +ellps=WGS84 +datum=WGS84"))
 
 ferox$Latitude <- data.frame(pos)[,2]
 ferox$Longitude <- data.frame(pos)[,1]
