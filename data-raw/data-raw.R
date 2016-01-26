@@ -24,8 +24,8 @@ ferox$Longitude <- ferox$Longitude + as.numeric(sub(".*\\s\\w\\d\\s([.\\d]+)$", 
 pos <- SpatialPoints(cbind(ferox$Longitude * -1, ferox$Latitude), proj4string = CRS("+proj=longlat +init=epsg:27700"))
 pos %<>% spTransform(CRS = CRS("+proj=longlat +datum=WGS84"))
 
-ferox$Latitude <- data.frame(pos)[,1]
-ferox$Longitude <- data.frame(pos)[,2]
+ferox$Latitude <- data.frame(pos)[,2]
+ferox$Longitude <- data.frame(pos)[,1]
 
 ferox %<>% select(Date, Fish, Length, Mass, Age, Latitude, Longitude)
 

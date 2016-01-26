@@ -9,8 +9,8 @@ test_that("data", {
          Length = c(400L, 825L),
          Mass = c(0.5, 7.5),
          Age = c(5L, 20L, NA),
-         Latitude = c(-4.1, -4.4),
-         Longitude = c(56.6, 56.8)),
+         Latitude = c(56.6, 56.8),
+         Longitude = c(-4.1, -4.4)),
          min_row = 84, max_row = 84,
     key = c("Date", "Fish")), ferox)
 })
