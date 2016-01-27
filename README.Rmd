@@ -15,7 +15,7 @@ knitr::opts_chunk$set(
 ```
 
 [![Travis-CI Build Status](https://travis-ci.org/poissonconsulting/ranmrdata.svg?branch=master)](https://travis-ci.org/poissonconsulting/ranmrdata)
-[![DOI](https://zenodo.org/badge/doi/10.5281/zenodo.31948.svg)](http://dx.doi.org/10.5281/zenodo.31948)
+[![DOI](https://zenodo.org/badge/doi/10.5281/zenodo.45222.svg)](http://dx.doi.org/10.5281/zenodo.45222)
 
 # Loch Rannoch Ferox Trout Mark-Recapture Data 
 

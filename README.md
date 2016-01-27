@@ -1,5 +1,5 @@
 <!-- README.md is generated from README.Rmd. Please edit that file -->
-[![Travis-CI Build Status](https://travis-ci.org/poissonconsulting/ranmrdata.svg?branch=master)](https://travis-ci.org/poissonconsulting/ranmrdata) [![DOI](https://zenodo.org/badge/doi/10.5281/zenodo.31948.svg)](http://dx.doi.org/10.5281/zenodo.31948)
+[![Travis-CI Build Status](https://travis-ci.org/poissonconsulting/ranmrdata.svg?branch=master)](https://travis-ci.org/poissonconsulting/ranmrdata) [![DOI](https://zenodo.org/badge/doi/10.5281/zenodo.45222.svg)](http://dx.doi.org/10.5281/zenodo.45222)
 
 Loch Rannoch Ferox Trout Mark-Recapture Data
 ============================================
@@ -35,19 +35,19 @@ library(ranmrdata)
 ferox
 #> Source: local data frame [84 x 7]
 #> 
-#>          Date   Fish Length  Mass   Age  Latitude Longitude
-#>        (date) (fctr)  (int) (dbl) (int)     (dbl)     (dbl)
-#> 1  1994-07-03    F01    610  3.01    10 -4.343289  56.67987
-#> 2  1994-08-25    F02    630  3.44    10 -4.338390  56.68001
-#> 3  1994-09-15    F03    480  1.16    11 -4.271416  56.68971
-#> 4  1994-09-22    F04    620  3.18    10 -4.282331  56.68801
-#> 5  1994-09-22    F05    595  2.50    11 -4.281298  56.68821
-#> 6  1994-09-25    F06    520  1.59     9 -4.243086  56.68881
-#> 7  1994-09-25    F07    510  1.51    10 -4.335174  56.68924
-#> 8  1995-05-06    F08    630  2.41    11 -4.310311  56.69364
-#> 9  1995-06-18    F09    660  2.73    10 -4.331424  56.67987
-#> 10 1995-06-18    F10    765  3.81    14 -4.357021  56.68119
-#> ..        ...    ...    ...   ...   ...       ...       ...
+#>          Date   Fish Length  Mass   Age Latitude Longitude
+#>        (date) (fctr)  (int) (dbl) (int)    (dbl)     (dbl)
+#> 1  1994-07-03    F01    610  3.01    10 56.67987 -4.343289
+#> 2  1994-08-25    F02    630  3.44    10 56.68001 -4.338390
+#> 3  1994-09-15    F03    480  1.16    11 56.68971 -4.271416
+#> 4  1994-09-22    F04    620  3.18    10 56.68801 -4.282331
+#> 5  1994-09-22    F05    595  2.50    11 56.68821 -4.281298
+#> 6  1994-09-25    F06    520  1.59     9 56.68881 -4.243086
+#> 7  1994-09-25    F07    510  1.51    10 56.68924 -4.335174
+#> 8  1995-05-06    F08    630  2.41    11 56.69364 -4.310311
+#> 9  1995-06-18    F09    660  2.73    10 56.67987 -4.331424
+#> 10 1995-06-18    F10    765  3.81    14 56.68119 -4.357021
+#> ..        ...    ...    ...   ...   ...      ...       ...
 ```
 
 For more information type `?ferox` at the R terminal.
