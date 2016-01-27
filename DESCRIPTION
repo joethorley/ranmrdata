@@ -1,7 +1,7 @@
 Package: ranmrdata
 Type: Package
 Title: Loch Rannoch Ferox Trout Mark-Recapture Data
-Version: 0.1.0
+Version: 0.1.0.9000
 Authors@R: c(
     person("Joe",  "Thorley", email = "joe@poissonconsulting.ca", role = c("aut", "cre")),
     person("Aya",  "Thorne", role = c("aut", "dtc")),
