@@ -1,9 +1,16 @@
 library(dplyr)
 library(magrittr)
+library(rgdal)
 library(sp)
 library(devtools)
 
 rm(list = ls())
+
+rannoch <- readOGR(dsn = file.path("data-raw", "LochRannoch"), layer = "LochRannoch")
+rannoch <- SpatialPolygons(rannoch@polygons,proj4string=rannoch@proj4string)
+rannoch %<>% spTransform(CRS("+proj=longlat +ellps=WGS84 +datum=WGS84"))
+
+use_data(rannoch, overwrite = TRUE)
 
 ferox <- read.csv("data-raw/ferox.csv")
 

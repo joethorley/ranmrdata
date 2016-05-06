@@ -19,7 +19,7 @@ devtools::install_github("poissonconsulting/ranmrdata")
 Information
 -----------
 
-The package provides a single tbl data frame.
+The package provides a tbl data frame of the mark recapture data and a SpatialPolygons object of the shoreline of Loch Rannoch. Any maps including the shoreline should include the text &gt; Lochs from Land Cover of Scotland data, MLURI 1993.
 
 ``` r
 library(dplyr) # for nice printing of tbl data frames
@@ -49,5 +49,3 @@ ferox
 #> 10 1995-06-18    F10    765  3.81    14 56.68119 -4.357021
 #> ..        ...    ...    ...   ...   ...      ...       ...
 ```
-
-For more information type `?ferox` at the R terminal.

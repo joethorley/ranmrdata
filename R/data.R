@@ -11,3 +11,8 @@
 #'   \item{Longitude}{The longitude (WGS84) (dbl).}
 #' }
 "ferox"
+
+#' Loch Rannoch Shoreline
+#'
+#' @format A SpatialPolygons object of the shoreline of Loch Rannoch, Scotland.
+"rannoch"
