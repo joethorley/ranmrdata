@@ -1,5 +1,7 @@
 # ranmrdatr NEWS
 
+## v0.1.1
+
 - Save ferox as a SpatialPointsDataFrame.
 - Added Loch Rannoch shapefile.
 
