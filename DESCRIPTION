@@ -17,7 +17,6 @@ Depends:
     R (>= 3.1.0)
 Suggests:
     datacheckr (>= 0.1.0),
-    dplyr,
     sp,
     testthat
 RoxygenNote: 5.0.1
