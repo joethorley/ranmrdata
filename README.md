@@ -7,6 +7,8 @@
 
 [![Lifecycle:
 stable](https://img.shields.io/badge/lifecycle-stable-brightgreen.svg)](https://www.tidyverse.org/lifecycle/#stable)
+[![R build
+status](https://github.com/joethorley/ranmrdata/workflows/R-CMD-check/badge.svg)](https://github.com/joethorley/ranmrdata/actions)
 [![DOI](https://zenodo.org/badge/doi/10.5281/zenodo.51110.svg)](http://dx.doi.org/10.5281/zenodo.51110)
 <!-- badges: end -->
 
@@ -20,7 +22,7 @@ To install the package execute the following code at the R terminal:
 
 ``` r
 # install.packages("devtools")
-devtools::install_github("poissonconsulting/ranmrdata")
+devtools::install_github("joethorley/ranmrdata")
 ```
 
 ## Information
