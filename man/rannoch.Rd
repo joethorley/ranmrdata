@@ -4,7 +4,9 @@
 \name{rannoch}
 \alias{rannoch}
 \title{Loch Rannoch Shoreline}
-\format{A SpatialPolygons object of the shoreline of Loch Rannoch, Scotland.}
+\format{
+A SpatialPolygons object of the shoreline of Loch Rannoch, Scotland.
+}
 \usage{
 rannoch
 }
@@ -12,4 +14,3 @@ rannoch
 Loch Rannoch Shoreline
 }
 \keyword{datasets}
-
